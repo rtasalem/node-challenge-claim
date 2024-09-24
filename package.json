@@ -1,0 +1,32 @@
+{
+  "name": "node-challenge-claim",
+  "version": "1.0.0",
+  "description": "Simple practice Node.js app for sending messages to Azure Service Bus.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtasalem/node-challenge-claim.git"
+  },
+  "keywords": [
+    "azure",
+    "service-bus"
+  ],
+  "author": "Rana Salem (github.com/rtasalem)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtasalem/node-challenge-claim/issues"
+  },
+  "homepage": "https://github.com/rtasalem/node-challenge-claim#readme",
+  "dependencies": {
+    "@azure/service-bus": "7.9.5"
+  },
+  "devDependencies": {
+    "dotenv": "16.4.5",
+    "nodemon": "3.1.7"
+  }
+}
